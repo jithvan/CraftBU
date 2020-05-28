@@ -1,0 +1,139 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0
+}
+
+:focus {
+	outline: 0
+}
+
+body {
+	line-height: 1
+}
+
+ol,
+ul {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption,
+th,
+td {
+	text-align: left;
+	font-weight: 400
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: ""
+}
+
+blockquote,
+q {
+	quotes: "" ""
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+a img {
+	border: none
+}
+
+h1 {
+	font-size: 22px;
+	font-weight: 400
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 400
+}
+
+h3 {
+	font-size: 14px
+}
+
+h4,
+h5,
+h6 {
+	font-size: 100%
+}
+
+input:-webkit-autofill {
+	color: #000!important
+}
+
+html,
+body {
+	height: 100%
+}
+
+body {}
