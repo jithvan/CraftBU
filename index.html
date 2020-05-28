@@ -11,11 +11,13 @@
 
 	<link href="css/core.css" rel="stylesheet" media="screen">
 	<link href="css/style.css" rel="stylesheet" media="screen">
+	<link href="css/gallery.css" rel="stylesheet" media="screen">
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
 
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script type="text/javascript"src="https://kit.fontawesome.com/abcdd53c70.js" crossorigin="anonymous"></script>
-	<script type="text/javascript"src="js/clipboard.min.js"></script>
+	<script type="text/javascript" src="https://kit.fontawesome.com/abcdd53c70.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/material-photo-gallery.min.js"></script>
+	<script type="text/javascript" src="js/clipboard.min.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
 </head>
 <body>
@@ -45,6 +47,7 @@
          <a href="#map">Map</a>
          <a href="#updates">Updates</a>
          <a href="#team">Team</a>
+         <a href="#gallery">Gallery</a>
          <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
          <i class="fa fa-bars"></i>
          </a>
@@ -214,6 +217,30 @@
           </div>
         </div>
       </div>
+      <div id="gallery">
+<div class="m-p-g">
+	<div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+		<img src="img/gallery/NPC_Marsh.png" data-full="img/gallery/NPC_Marsh.png" class="m-p-g__thumbs-img" />
+		<img src="img/gallery/Comm_Ave_East_From_Central.png" data-full="img/gallery/Comm_Ave_East_From_Central.png" class="m-p-g__thumbs-img" />
+		<img src="img/gallery/Stuvi_unzoomed.png" data-full="img/gallery/Stuvi_unzoomed.png" class="m-p-g__thumbs-img" />
+		<img src="img/gallery/FitRec.png" data-full="img/gallery/FitRec.png" class="m-p-g__thumbs-img" />
+		<img src="img/gallery/East_to_West.png" data-full="img/gallery/East_to_West.png" class="m-p-g__thumbs-img" />
+		<img src="img/gallery/Marsh_Bus_Stop.png" data-full="img/gallery/Marsh_Bus_Stop.png" class="m-p-g__thumbs-img" />
+		<img src="img/gallery/STH_Front.png" data-full="img/gallery/STH_Front.png" class="m-p-g__thumbs-img" />
+		<img src="img/gallery/Stuvi2_Side.png" data-full="img/gallery/Stuvi2_Side.png" class="m-p-g__thumbs-img" />
+		<img src="img/gallery/Agganis_Parking.png" data-full="img/gallery/Agganis_Parking.png" class="m-p-g__thumbs-img" />
+	</div>
+	<div class="m-p-g__fullscreen"></div>
+	</div>
+	<script>
+	var elem = document.querySelector('.m-p-g');
+
+	document.addEventListener('DOMContentLoaded', function() {
+		var gallery = new MaterialPhotoGallery(elem);
+	});
+</script>
+</div>
+    <div>
       <div id="contact">
          <h2>CONTACT US</h2>
          <p>Email - <a href="mailto:jithvan@bu.edu">jithvan@bu.edu</a></p>

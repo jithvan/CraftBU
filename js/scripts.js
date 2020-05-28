@@ -105,3 +105,10 @@ $(document).ready(function() {
 
 });
  /*Scroll to top when arrow up clicked END*/
+$(document).ready(function() {
+var elem = document.querySelector('.m-p-g');
+
+document.addEventListener('DOMContentLoaded', function() {
+    var gallery = new MaterialPhotoGallery(elem);
+});
+});

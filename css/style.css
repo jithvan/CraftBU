@@ -100,7 +100,7 @@ header {
     height: 100%;
     position: relative;
     box-shadow: 0 0 0px #0b0c0c;
-    background: url(http://cs-people.bu.edu/jithvan/rhettcraft/website-images/bg3.png) no-repeat top;
+    background: url("../img/background.png") no-repeat top;
     background-position: top 0px center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
