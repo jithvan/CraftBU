@@ -1,74 +1,67 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-    <title>CraftBU - Project Website</title>
-	<meta name="description" content="CrafBU is a project to reconstruct the Boston University campus on Minecraft.">
-	<meta name="keywords" content="CrafBU, Boston University Minecraft Server , BU Minecraft Server, Minecraft, University Map, Website, Reconsruction">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="robots" content="INDEX, FOLLOW">
-	<meta name="game" content="Minecraft">
-	<meta http-equiv="Content-Language" content="en-US">
-
-	<link href="css/core.css" rel="stylesheet" media="screen">
-	<link href="css/style.css" rel="stylesheet" media="screen">
-	<link href="css/gallery.css" rel="stylesheet" media="screen">
-	<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
-
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="https://kit.fontawesome.com/abcdd53c70.js" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/material-photo-gallery.min.js"></script>
-	<script type="text/javascript" src="js/clipboard.min.js"></script>
-	<script type="text/javascript" src="js/scripts.js"></script>
-</head>
-<body>
-   <header>
-      <div id="topbar">
-         <div class="topbar_fx">
-            <a href="https://discord.gg/mhH65sR" target="_blank">
-               <div id="discordinfo">
-                  <div class="dicon">
-                     <i class="fab fa-discord"></i>
+   <head>
+      <title>CraftBU - Project Website</title>
+      <meta name="description" content="CrafBU is a project to reconstruct the Boston University campus on Minecraft.">
+      <meta name="keywords" content="CrafBU, Boston University Minecraft Server , BU Minecraft Server, Minecraft, University Map, Website, Reconsruction">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="robots" content="INDEX, FOLLOW">
+      <meta name="game" content="Minecraft">
+      <meta http-equiv="Content-Language" content="en-US">
+      <link href="css/core.css" rel="stylesheet" media="screen">
+      <link href="css/style.css" rel="stylesheet" media="screen">
+      <link href="css/gallery.css" rel="stylesheet" media="screen">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,,500,600,700" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <div id="topbar">
+            <div class="topbar_fx">
+               <a href="https://discord.gg/mhH65sR" target="_blank">
+                  <div id="discordinfo">
+                     <div class="dicon">
+                        <i class="fab fa-discord"></i>
+                     </div>
+                     <div class="dinfo">
+                        <h3><b>0</b> USERS CURRENTLY ONLINE ON DISCORD</h3>
+                        <h4>join our discord server!</h4>
+                     </div>
                   </div>
-                  <div class="dinfo">
-                     <h3><b>0</b> USERS CURRENTLY ONLINE ON DISCORD</h3>
-                     <h4>join our discord server!</h4>
-                  </div>
+               </a>
+               <div id="apply">
+                  <div class="ainfo"><a href="https://forms.gle/3WzeTAXYprGiZZEe6">Become a Builder</a></div>
                </div>
+            </div>
+         </div>
+         </div>
+         <div class="topnav" id="top">
+            <a href="#about">About</a>
+            <a href="#uses">Uses</a>
+            <a href="#map">Map</a>
+            <a href="#updates">Updates</a>
+            <a href="#team">Team</a>
+            <a href="#gallery">Gallery</a>
+            <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+            <i class="fa fa-bars"></i>
             </a>
-            <div id="apply">
-               <div class="ainfo"><a href="https://forms.gle/3WzeTAXYprGiZZEe6">Become a Builder</a></div>
+         </div>
+         <div id="serverinfo">
+            <div class="serverbox pid">
+               <div class="players">
+                  <span id="online"><i class="fas fa-users"></i> 0</span> Currently playing
+                  <p>What are you waiting for? <b>Join Today!</b></p>
+               </div>
+            </div>
+            <div class="serverbox ipid">
+               <div id="ip" data-clipboard-text="play.quaranteen.university">
+                  play.quaranteen.university <i class="fas fa-copy"></i>
+                  <p>Click to copy IP address!</p>
+               </div>
             </div>
          </div>
-      </div>
-      </div>
-      <div class="topnav" id="myTopnav">
-         <a href="#about">About</a>
-         <a href="#uses">Uses</a>
-         <a href="#map">Map</a>
-         <a href="#updates">Updates</a>
-         <a href="#team">Team</a>
-         <a href="#gallery">Gallery</a>
-         <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
-         <i class="fa fa-bars"></i>
-         </a>
-      </div>
-      <div id="serverinfo">
-         <div class="serverbox pid">
-            <div class="players">
-               <span id="online"><i class="fas fa-users"></i> 0</span> Currently playing
-               <p>What are you waiting for? <b>Join Today!</b></p>
-            </div>
          </div>
-         <div class="serverbox ipid">
-            <div id="ip" data-clipboard-text="play.quaranteen.university">
-               play.quaranteen.university <i class="fas fa-copy"></i>
-               <p>Click to copy IP address!</p>
-            </div>
-         </div>
-      </div>
-      </div>
-   </header>
-   <div class="main" id="about">
+      </header>
+      <div class="main" id="about">
       <div id="extrainfo">
          <div class="einfoleft">
             <div class="einfobox">
@@ -89,29 +82,29 @@
       </div>
       <div id="description">
          <div>
-            <i class="fa fa-rocket fa-4x"></i>
+            <i class="fa fa-rocket fa-4x"></i><br><br>
             <span>
-               <h3 class="ftco-animate">OUR HISTORY</h3>
-               <p>CraftBU has been around for over a year now. What started off as a small community minecraft server has developed into something we couldn't even imagine.</p>
+               <h3>OUR HISTORY</h3>
+               <p>The CraftBU began in Summer 2019. What started off as a small community minecraft server at the BU Gaming Club has developed into a serious project with practical uses.</p>
             </span>
          </div>
          <div>
-            <i class="fa fa-user fa-4x"></i>
+            <i class="fa fa-user fa-4x"></i><br><br>
             <span>
                <h3>OUR BUILDERS</h3>
-               <p>The CraftBU builder team is comprised of BU students. Dedicated, and always online to help everything run smoothly. Have any questions? Make sure to do /staff inworld to reach out!</p>
+               <p> The CraftBU builder team is comprised mostly of current BU students. Our team coordinates reggulary with critical attention to detail in order to perfect our builds. </p>
             </span>
          </div>
          <div>
-            <i class="fa fa-server fa-4x"></i>
+            <i class="fa fa-server fa-4x"></i><br><br>
             <span>
-               <h3>Worlds</h3>
-               <p>We have <b>Survival</b>, <b>Factions</b>, and <b>Event Worlds</b> on our server, all with fully custom builds and useful perks and features. Join today at play.CraftBU.com!</p>
+               <h3>WORLDS</h3>
+               <p>We have <b>Survival</b>, <b>Factions</b>, and <b>Event Worlds</b> on our server, so when you are not exploring our campus reconstruction, you can play traditional minecraft with your friends.</p>
             </span>
          </div>
       </div>
       <div id="uses">
-        <h2>USES</h2>
+         <h2 style="color: #e51836;">USES</h2>
          <div class="use e">
             <div>
                <h3>Virtual Tours</h3>
@@ -152,20 +145,19 @@
             <img alt="Use 3" class="gimg c" src="img/Placeholder2.png">
          </div>
       </div>
-
       <div id="map">
-        <div class="row">
-          <div class="column-half-no-padding">
-            <iframe src="https://map.quaranteen.university/?worldname=Boston&mapname=surface&zoom=2&x=-2900&y=64&z=600&nopanel=true&hidechat=true&nogui=true" width="100%" height="500px">
-            </iframe>
-          </div>
-          <div class="column-half">
-            <div class="updates">
-            <h2>MAP</h2>
-            <p>Placeholder text</p>
-        </div>
-          </div>
-        </div>
+         <div class="row" style="background: -webkit-linear-gradient(to right, #ece9e6, #ffffff);background: linear-gradient(to right, #ece9e6, #ffffff)">
+            <div class="column-half-no-padding">
+               <iframe src="https://map.quaranteen.university/?worldname=Boston&mapname=surface&zoom=2&x=-2900&y=64&z=600&nopanel=true&hidechat=true&nogui=true" width="100%" height="500px" style="display:block;">
+               </iframe>
+            </div>
+            <div class="column-half">
+               <h2>MAP</h2>
+               <div style="text-align: center; padding: 0% 10% 0% 10%">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+               </div>
+            </div>
+         </div>
       </div>
       <div id="team">
          <div class="team">
@@ -174,83 +166,90 @@
                <div>
                   <h3>Jithvan</h3>
                   <div class="owner">Project Lead</div>
-                  <img alt="CraftBU Staff Member" src="img/Placeholder1.png">
                </div>
                <div>
                   <h3>EERussianguy</h3>
                   <div class="manager">Lead Architect</div>
-                  <img alt="CraftBU Staff Member" src="img/Placeholder1.png">
                </div>
                <div>
                   <h3>Placeholder</h3>
-                  <div class="admin">Admin</div>
-                  <img alt="CraftBU Staff Member" src="img/Placeholder1.png">
+                  <div class="builder">Builder</div>
                </div>
                <div>
                   <h3>Placeholder</h3>
-                  <div class="admin">Admin</div>
-                  <img alt="CraftBU Staff Member" src="img/Placeholder1.png">
+                  <div class="builder">Builder</div>
                </div>
                <div>
                   <h3>Placeholder</h3>
-                  <div class="admin">Admin</div>
-                  <img alt="CraftBU Staff Member" src="img/Placeholder1.png">
+                  <div class="builder">Builder</div>
+               </div>
+               <div>
+                  <h3>Placeholder</h3>
+                  <div class="builder">Builder</div>
+               </div>
+               <div>
+                  <h3>Placeholder</h3>
+                  <div class="builder">Builder</div>
+               </div>
+               <div>
+                  <h3>Placeholder</h3>
+                  <div class="builder">Builder</div>
                </div>
             </div>
          </div>
       </div>
       <div id="updates">
-        <div class="row">
-            <div class="column-two-third" style="background-color:#aaa;">
-                <h2>UPDATES</h2>
-                <p>Some text..</p>
+         <div class="row">
+            <div class="column-two-third">
+               <h2>UPDATES</h2>
+               <p>Some text..</p>
             </div>
-            <div class="column-one-third" style="background-color:#bbb;">
-              <widgetbot
-                server="690019838445486121"
-                channel="690316168199929857"
-                width="100%"
-                height="600"
-                shard="https://e.widgetbot.io"
-              ></widgetbot>
-            <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
-          </div>
-        </div>
+            <div class="column-one-third">
+               <widgetbot
+                  server="690019838445486121"
+                  channel="690316168199929857"
+                  width="100%"
+                  height="600"
+                  shard="https://e.widgetbot.io"
+                  ></widgetbot>
+               <script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+            </div>
+         </div>
       </div>
       <div id="gallery">
-<div class="m-p-g">
-	<div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
-		<img src="img/gallery/NPC_Marsh.png" data-full="img/gallery/NPC_Marsh.png" class="m-p-g__thumbs-img" />
-		<img src="img/gallery/Comm_Ave_East_From_Central.png" data-full="img/gallery/Comm_Ave_East_From_Central.png" class="m-p-g__thumbs-img" />
-		<img src="img/gallery/Stuvi_unzoomed.png" data-full="img/gallery/Stuvi_unzoomed.png" class="m-p-g__thumbs-img" />
-		<img src="img/gallery/FitRec.png" data-full="img/gallery/FitRec.png" class="m-p-g__thumbs-img" />
-		<img src="img/gallery/East_to_West.png" data-full="img/gallery/East_to_West.png" class="m-p-g__thumbs-img" />
-		<img src="img/gallery/Marsh_Bus_Stop.png" data-full="img/gallery/Marsh_Bus_Stop.png" class="m-p-g__thumbs-img" />
-		<img src="img/gallery/STH_Front.png" data-full="img/gallery/STH_Front.png" class="m-p-g__thumbs-img" />
-		<img src="img/gallery/Stuvi2_Side.png" data-full="img/gallery/Stuvi2_Side.png" class="m-p-g__thumbs-img" />
-		<img src="img/gallery/Agganis_Parking.png" data-full="img/gallery/Agganis_Parking.png" class="m-p-g__thumbs-img" />
-	</div>
-	<div class="m-p-g__fullscreen"></div>
-	</div>
-	<script>
-	var elem = document.querySelector('.m-p-g');
-
-	document.addEventListener('DOMContentLoaded', function() {
-		var gallery = new MaterialPhotoGallery(elem);
-	});
-</script>
-</div>
-    <div>
-      <div id="contact">
-         <h2>CONTACT US</h2>
-         <p>Email - <a href="mailto:jithvan@bu.edu">jithvan@bu.edu</a></p>
-         <p>Discord - <a href="https://discord.gg/mhH65sR">discord.gg/mhH65sR</a></p>
+         <div class="m-p-g">
+            <div class="m-p-g__thumbs" data-google-image-layout data-max-height="350">
+               <img src="img/gallery/thumbnails/NPC_Marsh_Thumb.jpg" data-full="img/gallery/NPC_Marsh.jpg" class="m-p-g__thumbs-img" />
+               <img src="img/gallery/thumbnails/Comm_Ave_East_From_Central_Thumb.jpg" data-full="img/gallery/Comm_Ave_East_From_Central.jpg" class="m-p-g__thumbs-img" />
+               <img src="img/gallery/thumbnails/Stuvi_unzoomed_Thumb.jpg" data-full="img/gallery/Stuvi_unzoomed.jpg" class="m-p-g__thumbs-img" />
+               <img src="img/gallery/thumbnails/FitRec_Thumb.jpg" data-full="img/gallery/FitRec.jpg" class="m-p-g__thumbs-img" />
+               <img src="img/gallery/thumbnails/East_to_West_Thumb.jpg" data-full="img/gallery/East_to_West.jpg" class="m-p-g__thumbs-img" />
+               <img src="img/gallery/thumbnails/Marsh_Bus_Stop_Thumb.jpg" data-full="img/gallery/Marsh_Bus_Stop.jpg" class="m-p-g__thumbs-img" />
+               <img src="img/gallery/thumbnails/STH_Front_Thumb.jpg" data-full="img/gallery/STH_Front.jpg" class="m-p-g__thumbs-img" />
+               <img src="img/gallery/thumbnails/Stuvi2_Side_Thumb.jpg" data-full="img/gallery/Stuvi2_Side.jpg" class="m-p-g__thumbs-img" />
+               <img src="img/gallery/thumbnails/Agganis_Parking_Thumb.jpg" data-full="img/gallery/Agganis_Parking.jpg" class="m-p-g__thumbs-img" />
+            </div>
+            <div class="m-p-g__fullscreen"></div>
+         </div>
       </div>
-   </div>
-   <footer>
-      <img alt="Server Logo" src="img/logo.png">
-      <p>CraftBU 2020</p>
-   </footer>
-<a id="back2Top" title="Back to top" href="#"><img src="img/Citgo_logo.svg" width="80%"></a>
-</body>
+      <footer>
+         <center>
+            <img alt="Server Logo" src="img/logo.png">
+            <p>CraftBU 2020</p>
+         </center>
+      </footer>
+      <a id="back2Top" title="Back to top" href="#"><img src="img/Citgo_logo.svg" width="80%"></a>
+      <script>
+         var elem = document.querySelector('.m-p-g');
+         
+         document.addEventListener('DOMContentLoaded', function() {
+         	var gallery = new MaterialPhotoGallery(elem);
+         });
+      </script>
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://kit.fontawesome.com/abcdd53c70.js" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/material-photo-gallery.min.js"></script>
+      <script type="text/javascript" src="js/clipboard.min.js"></script>
+      <script type="text/javascript" src="js/scripts.js"></script>
+   </body>
 </html>
