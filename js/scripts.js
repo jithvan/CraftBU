@@ -79,7 +79,7 @@ $( document ).ready(function() {
     });
 
 function mobileMenu() {
-  var x = document.getElementById("myTopnav");
+  var x = document.getElementById("top");
   if (x.className === "topnav") {
     x.className += " responsive";
   } else {
