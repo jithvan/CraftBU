@@ -591,7 +591,9 @@ header {
 
 /* Main */
 
-* {
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -723,7 +725,6 @@ h2 {
 
 #description div span {
   font-size: 1.05em;
-  letter-spacing: 1.2px;
 }
 
 
