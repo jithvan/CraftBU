@@ -139,7 +139,6 @@ header {
 
 .topbar_fx {
   margin: 0 auto;
-  max-width: 1300px;
 }
 
 #apply {
@@ -313,7 +312,6 @@ header {
   }
   .einforight {
     float: none !important;
-    padding-top: 4px;
     padding-right: 10%;
     text-align: right;
   }
@@ -558,13 +556,11 @@ header {
 
 .einfoleft {
   float: left;
-  padding-top: 4px;
   padding-left: 10%;
 }
 
 .einforight {
   float: right;
-  padding-top: 4px;
   padding-right: 10%;
   text-align: right;
 }
