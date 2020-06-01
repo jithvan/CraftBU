@@ -222,7 +222,6 @@ header {
 /* NAVIGATION BAR */
 
 .topnav {
-  position: relative;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.4);
   text-align: center;
