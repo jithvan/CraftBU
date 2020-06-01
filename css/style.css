@@ -222,7 +222,6 @@ header {
 /* NAVIGATION BAR */
 
 .topnav {
-  overflow: hidden;
   position: relative;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.4);
