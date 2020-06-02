@@ -345,8 +345,22 @@ header {
   .column-one-third {
     display: none
   }
+  .column-two-third {
+    padding: 10% 10% 10% 10%;
+  }
+  .column-half {
+    padding: 10% 10% 10% 10%;
+  }
+  row-mobile {
+    display: flex !important;
+  }
 }
 
+@media screen and (min-width: 600px) {
+  .row-mobile {
+    display: none !important;
+  }
+}
 
 /* Dropdown container - needed to position the dropdown content */
 
@@ -759,7 +773,7 @@ h2 {
 }
 
 .use div {
-  margin: 0 30px;
+  margin: 5% 5% 5% 5%;
   font-size: 19px;
   line-height: 1.4em;
 }
@@ -779,12 +793,12 @@ hr {
 
 .column-quater {
   flex: 25%;
-  padding: 10px;
+  padding: 0 5% 0 5%;
 }
 
 .column-half {
   flex: 50%;
-  padding: 10px;
+  padding: 5% 5% 5% 5%;
 }
 
 .column-half-no-padding {
@@ -793,17 +807,16 @@ hr {
 
 .column-three-quater {
   flex: 75%;
-  padding: 10px;
+  padding: 0 5% 0 5%;
 }
 
 .column-one-third {
   flex: 33.3%;
-  padding: 10px;
 }
 
 .column-two-third {
   flex: 66.6%;
-  padding: 10px;
+  padding: 5% 5% 5% 5%;
 }
 
 
