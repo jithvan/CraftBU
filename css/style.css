@@ -134,7 +134,7 @@ header {
 
 #topbar {
   background: rgba(0, 0, 0, 0.5);
-  height: 60px;
+  height: 10vh;
 }
 
 .topbar_fx {
@@ -468,7 +468,7 @@ header {
 
 #serverinfo {
   background: rgba(0, 0, 0, 0.5);
-  height: 70px;
+  height: 10vh;
   width: 90%;
   position: absolute;
   margin: 0 auto;
@@ -556,7 +556,7 @@ header {
 
 #extrainfo {
   background: #46474a;
-  height: 85px;
+  height: 10vh;
   width: 90%;
   margin: 0 auto;
   top: 0px;
