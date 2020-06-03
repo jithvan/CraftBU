@@ -468,7 +468,7 @@ header {
 
 #serverinfo {
   background: rgba(0, 0, 0, 0.5);
-  height: 10vh;
+  height: 12vh;
   width: 90%;
   position: absolute;
   margin: 0 auto;
@@ -556,7 +556,7 @@ header {
 
 #extrainfo {
   background: #46474a;
-  height: 10vh;
+  height: 12vh;
   width: 90%;
   margin: 0 auto;
   top: 0px;
@@ -774,7 +774,6 @@ h2 {
 
 .use div {
   margin: 5% 5% 5% 5%;
-  font-size: 19px;
   line-height: 1.4em;
 }
 
@@ -884,15 +883,15 @@ hr {
   background: #4286f4;
 }
 
-.owner,
-.manager,
-.builder {
-  padding: 12px;
+.staff {
   border-style: solid !important;
   border-color: #e51836 !important;
-  font-size: 1vw;
+  font-size: 1.2vw;
 }
 
+.staff-year {
+  font-size: 1.0vw;
+}
 
 /* Updates */
 
