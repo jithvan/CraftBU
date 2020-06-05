@@ -926,10 +926,6 @@ footer {
   padding: 30px 50px;
 }
 
-footer img {
-  width: 70px;
-}
-
 footer a {
   color: cyan;
   text-decoration: underline;
@@ -987,7 +983,7 @@ footer a {
     font-size: 4.5em;
   }
   .team-roster img {
-    width: 170px;
+    width: 100px;
   }
   .team-roster>div {
     padding: 13px;
