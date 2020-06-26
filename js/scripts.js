@@ -1,4 +1,4 @@
-var serverIpAddress = 'https://mcapi.us/server/status?ip=play.quaranteen.university';
+var serverIpAddress = 'https://mcapi.us/server/status?ip=play.craftbu.com';
 var discordGuild = 'https://discordapp.com/api/guilds/690019838445486121/widget.json'; //You need to have Server Widget Enabled
 
 $(window).load(function() {
