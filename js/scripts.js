@@ -1,4 +1,4 @@
-var serverIpAddress = 'https://mcapi.us/server/status?ip=play.craftbu.com';
+var serverIpAddress = 'https://api.mcsrvstat.us/2/play.craftbu.com';
 var discordGuild = 'https://discordapp.com/api/guilds/690019838445486121/widget.json'; //You need to have Server Widget Enabled
 
 $(window).load(function() {
@@ -31,8 +31,8 @@ $( document ).ready(function() {
 
         function getOnlinePlayers() {
             $.getJSON(serverIpAddress, function(json) {
-                if (json.status !== "error") {
-                    $("#online").html('<i class="fas fa-users"></i> ' + json.players.now);
+                if (json.online !== "error") {
+                    $("#online").html('<i class="fas fa-users"></i> ' + json.players.online);
                 } else {
                     $("#online").html('<i class="fas fa-spinner fa-spin"></i>');
                 }
@@ -49,8 +49,8 @@ $( document ).ready(function() {
                 }
                 
                 
-                if (json.server.name !== "") {
-                    $(".ssv").html('Supports 1.10 - 1.16.2 <i class="fas fa-code-branch"></i>').css("color", "#e51836");
+                if (json.hostname !== "") {
+                    $(".ssv").html('Supports 1.10 - 1.16.3 <i class="fas fa-code-branch"></i>').css("color", "#e51836");
                 } else {
                     $(".ssv").html('Unknown <i class="fas fa-exclamation-triangle"></i>').css("color", "#d03a3a");
                 }
