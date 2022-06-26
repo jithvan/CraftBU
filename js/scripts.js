@@ -50,7 +50,7 @@ $( document ).ready(function() {
                 
                 
                 if (json.hostname !== "") {
-                    $(".ssv").html('Supports 1.10 - 1.18.1 <i class="fas fa-code-branch"></i>').css("color", "#e51836");
+                    $(".ssv").html('Supports 1.10 - 1.19 <i class="fas fa-code-branch"></i>').css("color", "#e51836");
                 } else {
                     $(".ssv").html('Unknown <i class="fas fa-exclamation-triangle"></i>').css("color", "#d03a3a");
                 }
